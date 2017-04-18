@@ -88,7 +88,7 @@ OBJDIR = .
 
 
 # Shared source code
-SHARED = ../../../libs
+SHARED =../../../libs/effects/
 
 
 # List C source files here. (C dependencies are automatically generated.)
