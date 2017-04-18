@@ -63,7 +63,7 @@
 
 //------------------------------------------------------------------------------------------
 // PWM timer values
-// clk/8 = 9.6MHz/1 = 9.6MHz
+// clk/8 = 9.6MHz/8 = 1.2MHz
 // 1.2MHz / 256 = 4,687.5Hz
 #define TIMER0_PRESCALE			((0<<CS02) | (0<<CS01) | (1<<CS00))
 #define TIMER0_PWM_OUT			((1<<COM0A1) | (0<<COM0A0) | (1<<COM0B1) | (0<<COM0B0))
