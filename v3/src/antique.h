@@ -12,7 +12,7 @@
 #include <avr/power.h>
 
 #define BLINK_TABLE_FACTOR	240
-#include <libs/effects/blink-tables.h>
+#include <blink-tables.h>
 
 #include "pins.h"
 
